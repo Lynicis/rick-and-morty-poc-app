@@ -1,0 +1,32 @@
+name: rick_and_morty_app
+description: PoC app for component-driven and container widget
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  json_annotation: ^4.5.0
+  equatable: ^2.0.3
+  http: ^0.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  build_runner: ^2.0.0
+  json_serializable: ^6.0.0
+  flutter_launcher_icons: "^0.9.2"
+
+flutter:
+  uses-material-design: true
+
+flutter-icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
