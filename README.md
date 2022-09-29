@@ -1,1 +1,1 @@
-### Component-Driven ve Container Component Pattern PoC App
+### Component-Driven AND Container Component Pattern PoC App
